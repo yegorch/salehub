@@ -5,14 +5,12 @@ footer {
 
 /* navigation bar styling*/
 .navbar {
-  background: #.navbar;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  background: #292961;
 }
 
 .navbar .navbar-brand {
   color: #ffffff;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -43,10 +41,6 @@ footer {
 
 a.navbar-brand.goog:hover, .navbar-light .navbar-nav .nav-link:hover {
   color: red;
-}
-
-.goog {
-  font-family: 'Oleo Script', cursive;
 }
 
 .form-header-style {
