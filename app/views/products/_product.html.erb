@@ -7,6 +7,7 @@
         <div class="title"><%= product[:name] %></div>
         <span class="badge badge-pill badge-purple float-right">
           <%= number_to_currency(product[:price]) %>
+           <%= link_to product[:name], product_path(product.id) %>
         </span>
       </h5>
 
