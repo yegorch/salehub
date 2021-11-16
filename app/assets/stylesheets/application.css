@@ -34,6 +34,10 @@ footer {
   font-size: 1.2em;
 }
 
+.nav-item a {
+  color: #fff;
+}
+
 @media (max-width: 575px) {
   .jumbotron > h1 {
     font-size: 1.5rem;
@@ -146,4 +150,8 @@ h5.card-title a:hover {
 
 li.nav-item p.navbar-text {
   color: #ff0000;
+}
+
+.card-deck {
+  display: flex;
 }
