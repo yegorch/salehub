@@ -18,7 +18,11 @@
       </div>
 
       <div class="btn-edit-del">
-        <%= link_to "Edit", edit_product_path(@product),  class: ""%>
+        <%= link_to "Edit", edit_product_path(@product), class: ""%>
+      </div>
+
+      <div class="btn-edit-del">
+        <%= link_to "Удалить", product_path(@product), method: :delete, data: {confirm: "Удалить?"}, class: "btn btn-outline-danger" %>
       </div>
     </div>
   </div>
